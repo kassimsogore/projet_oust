@@ -1,0 +1,2 @@
+#define Oust_VERSION_MAJOR @Oust_VERSION_MAJOR@
+#define Oust_VERSION_MINOR @Oust_VERSION_MINOR@
