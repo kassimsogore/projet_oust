@@ -7,8 +7,8 @@ public:
 	~Stone();
 	void set_x(int x);
 	void set_y(int y);
-	int x() { return x_; };
-	int y() { return y_; };
+	const int x() const { return x_; };
+	const int y() const { return y_; };
 
 private:
 	int x_;
