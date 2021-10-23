@@ -8,5 +8,6 @@ int main(){
 	std::cout << "x = " << stone_w01.x() << std::endl;
 	std::cout << "y = " << stone_w01.y() << std::endl;
 	std::cout << "color = " << stone_w01.color() << std::endl;
+	std::cout << "type = " << stone_w01.type() << std::endl;
 	return 0;
 }

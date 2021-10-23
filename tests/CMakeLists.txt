@@ -13,3 +13,7 @@ add_test(NAME test_stone_black COMMAND test_stone_black)
 add_executable(test_stone_white test_stone_white.cpp)
 target_link_libraries(test_stone_white PUBLIC oust)
 add_test(NAME test_stone_white COMMAND test_stone_white)
+
+add_executable(test_plateau test_plateau.cpp)
+target_link_libraries(test_plateau PUBLIC oust)
+add_test(NAME test_plateau COMMAND test_plateau)

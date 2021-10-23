@@ -8,9 +8,10 @@ class Stone_black: public Stone{
 		Stone_black(int x, int y, std::string& color);
 		~Stone_black();
 		const std::string& color(){return color_;};
-
+		int type();
 	private:
 		std::string color_;
+		int type_stone_;
 	
 
 };
